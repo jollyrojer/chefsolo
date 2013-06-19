@@ -1,0 +1,4 @@
+{
+ "haproxy": { "server": "109.110.111.222:8080", "bucket": "https://roundrobin:81/test1111" },
+ "run_list": [ "recipe[haproxy::add_server]" ]
+}
